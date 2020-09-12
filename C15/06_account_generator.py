@@ -25,7 +25,7 @@ def get_student_names(count):
       student = input(prompt).lower()
       students.append(student)
     
-    return students
+  return students
 
 def generate_id():
   '''Generates random numbers from 111111 to 999999.'''
@@ -101,8 +101,6 @@ students = get_student_names(count = student_count)
 ids = generate_list_of_ids(count = student_count)
 
 emails = generate_emails(students, ids, domain = 'example.org')
-
-
 
 print(students)
 print(ids)
